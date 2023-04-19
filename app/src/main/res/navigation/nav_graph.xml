@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.geektech.dadsquiz.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/q1Fragment"
+        android:name="com.geektech.dadsquiz.Q1Fragment"
+        android:label="fragment_q1"
+        tools:layout="@layout/fragment_q1" />
+    <fragment
+        android:id="@+id/switchFragment"
+        android:name="com.geektech.dadsquiz.SwitchFragment"
+        android:label="fragment_switch"
+        tools:layout="@layout/fragment_switch" />
+    <fragment
+        android:id="@+id/q2Fragment"
+        android:name="com.geektech.dadsquiz.Q2Fragment"
+        android:label="fragment_q2"
+        tools:layout="@layout/fragment_q2" />
+    <fragment
+        android:id="@+id/q3Fragment"
+        android:name="com.geektech.dadsquiz.Q3Fragment"
+        android:label="fragment_q3"
+        tools:layout="@layout/fragment_q3" />
+    <fragment
+        android:id="@+id/q4Fragment"
+        android:name="com.geektech.dadsquiz.Q4Fragment"
+        android:label="fragment_q4"
+        tools:layout="@layout/fragment_q4" />
+    <fragment
+        android:id="@+id/q5Fragment"
+        android:name="com.geektech.dadsquiz.Q5Fragment"
+        android:label="fragment_q5"
+        tools:layout="@layout/fragment_q5" />
+    <fragment
+        android:id="@+id/q6Fragment"
+        android:name="com.geektech.dadsquiz.Q6Fragment"
+        android:label="fragment_q6"
+        tools:layout="@layout/fragment_q6" />
+    <fragment
+        android:id="@+id/q7Fragment"
+        android:name="com.geektech.dadsquiz.Q7Fragment"
+        android:label="fragment_q7"
+        tools:layout="@layout/fragment_q7" />
+    <fragment
+        android:id="@+id/q8Fragment"
+        android:name="com.geektech.dadsquiz.Q8Fragment"
+        android:label="fragment_q8"
+        tools:layout="@layout/fragment_q8" />
+    <fragment
+        android:id="@+id/q9Fragment"
+        android:name="com.geektech.dadsquiz.Q9Fragment"
+        android:label="fragment_q9"
+        tools:layout="@layout/fragment_q9" />
+    <fragment
+        android:id="@+id/q10Fragment"
+        android:name="com.geektech.dadsquiz.Q10Fragment"
+        android:label="fragment_q10"
+        tools:layout="@layout/fragment_q10" />
+    <fragment
+        android:id="@+id/winFragment"
+        android:name="com.geektech.dadsquiz.WinFragment"
+        android:label="fragment_win"
+        tools:layout="@layout/fragment_win" />
+</navigation>
